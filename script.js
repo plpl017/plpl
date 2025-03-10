@@ -1,10 +1,10 @@
-
-<ol>
-<li>
-Nhóm nghề Dịch vụ
-<ul>
-    <li> Kỹ thuật viên CNTT</li>
-    <li> Kỹ thuật an toàn TT</li>
-</ul>
-</li>
-<li></ol>
+function login()
+{
+    let u = us.value;
+    let p = pw.value;
+    if (u == "pl" && p == "011107")
+    {
+        window.open("home.html");
+        document.getElementById("compiler").style.display = "block";
+    }
+}
